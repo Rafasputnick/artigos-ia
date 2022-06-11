@@ -1,0 +1,65 @@
+<div style="width: 900px; margin: 0 auto;">
+    <h1 id="rede-neural-convolucional-reconhecedora-de-ra-as-de-cachorro">Rede neural convolucional reconhecedora de
+        raças de cachorro</h1>
+    <h2 id="integrantes">Integrantes</h2>
+    <ul>
+        <li>Lucas da Silva dos Santos</li>
+        <li>Rafael Nascimento Lourenço</li>
+    </ul>
+    <h2 id="teoria">Teoria</h2>
+    <p>Uma rede neural convolucional é uma arquitetura que utiliza de técnicas para reconhecer padrões, muito usada para
+        criar modelos que reconhecem imagens.
+        Esse algoritmo de aprendizado profundo contém três camadas principais que são:</p>
+    <ul>
+        <li>Camada convolucional</li>
+        <li>Camada de pooling</li>
+        <li>Camada totalmente conectada</li>
+    </ul>
+    <h2 id="implementa-o">Implementação</h2>
+    <p>O modelo usado é do modo Sequential, i,e. aplica as camadas em sequência. O padrão repetido três vezes foi a
+        aplicação de Conv2d, MaxPooling2d, Dropout e após essas repetições foi aplicada uma camada de Flatten e Dense. O
+        dataset utilizado foi o de <a href="https://www.kaggle.com/competitions/dog-breed-identification/data">raças de
+            cachorros</a>.
+        Nesse dataset foi feito um tratamento nas imagens deixando ela em preto e branco e aplicando o filtro de Blur e
+        um filtro de SobelXY. Esse um dos resultados:</p>
+    <p><img src="3.jpg" alt="Gráfico de perda do treinamento"></p>
+    <h2 id="resultados">Resultados</h2>
+    <p>Apesar dos resultados não serem muito bons houve um progresso em comparação com os modelos anteriores, além do
+        que o dataset de raça de cachorro é bem complexo pois possui muito ruído e nem em todas imagens tem o contorno
+        do animal, a variedade de cores nas imagens e falta de padrão no sentido de estar centralizado dificultou muito
+        o aprendizado. </p>
+    <p><img src="1.png" alt="Gráfico de acurácia do treinamento">
+        <img src="2.png" alt="Gráfico de perda do treinamento">
+    </p>
+    <h2 id="refer-ncias">Referências</h2>
+    <p><a
+            href="https://crivelaro.notion.site/Bot-de-Discord-de-Classifica-o-de-Imagens-com-Deep-Learning-498ca37d41c549fb90c403f8ccf3804e">https://crivelaro.notion.site/Bot-de-Discord-de-Classifica-o-de-Imagens-com-Deep-Learning-498ca37d41c549fb90c403f8ccf3804e</a>
+    </p>
+    <p><a href="https://www.youtube.com/watch?v=dFdMyUbtKM4">https://www.youtube.com/watch?v=dFdMyUbtKM4</a></p>
+    <p><a
+            href="https://keras.io/examples/vision/image_classification_from_scratch/">https://keras.io/examples/vision/image_classification_from_scratch/</a>
+    </p>
+    <p><a
+            href="https://curiousily.com/posts/hackers-guide-to-fixing-underfitting-and-overfitting-models/">https://curiousily.com/posts/hackers-guide-to-fixing-underfitting-and-overfitting-models/</a>
+    </p>
+    <p><a
+            href="https://devcenter.heroku.com/articles/build-docker-images-heroku-yml">https://devcenter.heroku.com/articles/build-docker-images-heroku-yml</a>
+    </p>
+    <p><a
+            href="https://wavesofvoqueric.com/software/2020/03/31/19/29/opencv-image-to-tensorflow-tensor/">https://wavesofvoqueric.com/software/2020/03/31/19/29/opencv-image-to-tensorflow-tensor/</a>
+    </p>
+    <p><a
+            href="https://data-flair.training/blogs/python-project-traffic-signs-recognition/">https://data-flair.training/blogs/python-project-traffic-signs-recognition/</a>
+    </p>
+    <p><a href="https://www.youtube.com/watch?v=pAhPiF3yiXI">https://www.youtube.com/watch?v=pAhPiF3yiXI</a></p>
+    <p><a
+            href="https://www.youtube.com/watch?v=IubEtS2JAiY&amp;list=PLZbbT5o_s2xrwRnXk_yCPtnqqo4_u2YGL&amp;index=2">https://www.youtube.com/watch?v=IubEtS2JAiY&amp;list=PLZbbT5o_s2xrwRnXk_yCPtnqqo4_u2YGL&amp;index=2</a>
+    </p>
+    <p><a href="https://www.youtube.com/watch?v=FK77zZxaBoI">https://www.youtube.com/watch?v=FK77zZxaBoI</a></p>
+    <p><a href="https://www.youtube.com/watch?v=YRhxdVk_sIs">https://www.youtube.com/watch?v=YRhxdVk_sIs</a></p>
+    <p><a href="https://www.youtube.com/watch?v=83LYR-1IcjA">https://www.youtube.com/watch?v=83LYR-1IcjA</a></p>
+    <p><a href="https://keras.io/guides/functional_api/">https://keras.io/guides/functional_api/</a></p>
+    <p><a
+            href="https://www.deeplearningbook.com.br/introducao-as-redes-neurais-convolucionais/">https://www.deeplearningbook.com.br/introducao-as-redes-neurais-convolucionais/</a>
+    </p>
+</div>
